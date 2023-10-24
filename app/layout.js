@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="px-[100px] pt-[30px] home_background" >
+      <body className="sm:px-[100px] sm:pt-[30px] home_background" >
        
       
         {children}
